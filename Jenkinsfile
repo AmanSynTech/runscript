@@ -9,7 +9,7 @@ pipeline {
                 echo "Running codes for login only"
                 sh '''
                     cd ${BASE_DIR}
-                    
+                    mvn test
                 '''
             }
         }
