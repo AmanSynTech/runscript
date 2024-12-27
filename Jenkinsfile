@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        BASE_DIR = '/home/aman/NetBeansProjects/FirstAutomation'
+        BASE_DIR = '/home/aman/NetBeansProjects/FirstAutomation/'
     }
     stages {
         stage('Running Login') {
