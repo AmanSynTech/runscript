@@ -17,7 +17,7 @@ pipeline {
             steps {
                 echo "Starting emulator ...."
                 sh '''
-                    emulator -avd TestAVD -no-snapshot-load -no-window &
+                    emulator -avd MI_12_Pro -no-snapshot-load -no-window &
                     adb wait-for-device
                 '''
                 sleep 20 // Ensure the emulator has fully booted
